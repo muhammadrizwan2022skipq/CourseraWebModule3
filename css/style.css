@@ -1,0 +1,80 @@
+body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 900;
+}
+
+.main-content {
+    margin: 15px 10px 0px;
+    background-color: gray;
+    overflow: hidden;
+    color: black;
+
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border: 0;
+    border-radius: 0;
+}
+
+#navbarSupportedContent {
+    background-color: lightblue;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 1200px) {}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+
+    }
+
+    #brandSection {
+        justify-content: center;
+        position: relative;
+    }
+
+    #toggler {
+        position: absolute;
+        right: 0;
+    }
+
+    #navbarSupportedContent {
+        visibility: visible !important;
+    }
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+    /* Header */
+    .navbar-brand h1 {
+        /* Restaurant name */
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+
+    #navbarSupportedContent {
+        visibility: visible;
+    }
+}
